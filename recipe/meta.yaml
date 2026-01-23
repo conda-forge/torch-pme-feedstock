@@ -1,5 +1,5 @@
 {% set name = "torch-pme" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/torch_pme/torch_pme-{{ version }}.tar.gz
-  sha256: 143678e0735404b9edcd24cc7591200a5a968a3e916a806c48b552614d22243f
+  sha256: df5e8233edb0a986088e6457467e4f49a42870a491b928802979448a44f62740
 
 build:
   noarch: python
